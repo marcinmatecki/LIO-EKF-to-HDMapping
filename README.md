@@ -4,7 +4,7 @@
 
 This small toolset allows to integrate SLAM solution provided by [lio-ekf](https://github.com/YibinWu/LIO-EKF) with [HDMapping](https://github.com/MapsHD/HDMapping).
 This repository contains ROS 1 workspace that :
-  - submodule to tested revision of LIO-EKF and KISS-ICP
+  - submodule to tested revision of LIO-EKF and KISS-ICP(for building LIO-EKF)
   - a converter that listens to topics advertised from odometry node and save data in format compatible with HDMapping.
 
 ## Dependencies
