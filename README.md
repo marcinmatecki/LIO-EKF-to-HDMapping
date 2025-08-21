@@ -84,7 +84,7 @@ rosbag record /local_map /odometry
 cd /test_ws/
 source ./devel/setup.sh # adjust to used shell
 roslaunch lio_ekf eee_01.launch 
-rosbag play
+rosbag play {path_for_bag}
 ```
 
 ## Usage - conversion:
